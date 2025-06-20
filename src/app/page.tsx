@@ -306,7 +306,7 @@ export default function Home() {
 						<blockquote className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900 dark:to-blue-800 rounded-xl shadow-lg p-6 flex flex-col">
 							<p className="text-gray-800 dark:text-gray-100 italic mb-4">“Working with Abdessamed was a pleasure. He brings creativity and dedication to every project.”</p>
 							<div className="flex items-center gap-3 mt-auto">
-								<Image src="/ahmed1.jpg" alt="LinkedIn User" width={40} height={40} className="rounded-full border-2 border-blue-300" />
+								<Image src="/ahmed1.jpg" alt="https://www.linkedin.com/in/gasba-ahmed-783a932b9/" width={40} height={40} className="rounded-full border-2 border-blue-300" />
 								<div>
 									<p className="font-semibold text-blue-700 dark:text-blue-300">Gasba Ahmed</p>
 									<p className="text-xs text-gray-500 dark:text-gray-400">Colleague</p>
