@@ -91,6 +91,15 @@ export default function Home() {
 						<svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" /></svg>
 						Download CV
 					</a>
+					<a
+						href="/thesis.pdf"
+						download
+						target="_blank"
+						className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-purple-400 to-pink-500 text-white rounded-full shadow hover:from-purple-500 hover:to-pink-600 focus:ring-2 focus:ring-purple-300 transition font-semibold text-base"
+					>
+						<svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" /></svg>
+						View Graduation Thesis
+					</a>
 				</div>
 				<div className="flex flex-wrap justify-center gap-4">
 					<a
@@ -275,14 +284,16 @@ export default function Home() {
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 						{/* Example blog posts - replace with dynamic content or API later */}
 						<article className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900 dark:to-green-800 rounded-xl shadow-lg p-6 flex flex-col hover:scale-105 transition-transform duration-300">
-							<h3 className="text-xl font-semibold mb-2 text-green-800 dark:text-green-200">How to Build a Modern Portfolio with Next.js & Tailwind CSS</h3>
-							<p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">A step-by-step guide to creating a beautiful, responsive portfolio using the latest web technologies.</p>
-							<a href="#" className="text-green-700 dark:text-green-300 underline text-sm hover:text-green-900 dark:hover:text-green-100 transition">Read More</a>
+							<h3 className="text-xl font-semibold mb-2 text-green-800 dark:text-green-200">How Can AI Understand Conversations in Dialects?</h3>
+							<p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">One of the biggest challenges in Natural Language Processing (NLP) is dealing with dialects and informal speech. Unlike standard language, dialects vary in structure, vocabulary, and even pronunciation across different regions.
+
+Recently, I had an interesting experience with ChatGPT — I tested its ability to understand casual conversations in "Darija" (a North African Arabic dialect), and the results were impressive!</p>
+							<a href="https://medium.com/@ouahabi.abdessamed/how-can-ai-understand-conversations-in-dialects-eae41cdccfe5" className="text-green-700 dark:text-green-300 underline text-sm hover:text-green-900 dark:hover:text-green-100 transition">Read More</a>
 						</article>
 						<article className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900 dark:to-green-800 rounded-xl shadow-lg p-6 flex flex-col hover:scale-105 transition-transform duration-300">
-							<h3 className="text-xl font-semibold mb-2 text-green-800 dark:text-green-200">Getting Started with LangChain for AI Applications</h3>
-							<p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">An introduction to LangChain and how it can be used to build advanced AI-powered apps and chatbots.</p>
-							<a href="#" className="text-green-700 dark:text-green-300 underline text-sm hover:text-green-900 dark:hover:text-green-100 transition">Read More</a>
+							<h3 className="text-xl font-semibold mb-2 text-green-800 dark:text-green-200">Overcoming GPU Memory Challenges in Training Large Language Models (LLMs) 🚀</h3>
+							<p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">One of the biggest challenges in training LLMs is running out of GPU memory. With models exceeding billions of parameters, memory efficiency becomes critical.</p>
+							<a href="https://www.linkedin.com/feed/update/urn:li:activity:7298717404791033856?utm_source=share&utm_medium=member_desktop&rcm=ACoAADha9dYBzz2tcAj9GxRbMlDJtHV4iaWuHAc" className="text-green-700 dark:text-green-300 underline text-sm hover:text-green-900 dark:hover:text-green-100 transition">Read More</a>
 						</article>
 					</div>
 				</section>
@@ -306,7 +317,7 @@ export default function Home() {
 						<blockquote className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900 dark:to-blue-800 rounded-xl shadow-lg p-6 flex flex-col">
 							<p className="text-gray-800 dark:text-gray-100 italic mb-4">“Working with Abdessamed was a pleasure. He brings creativity and dedication to every project.”</p>
 							<div className="flex items-center gap-3 mt-auto">
-								<Image src="/ahmed1.jpg" alt="LinkedIn User" width={40} height={40} className="rounded-full border-2 border-blue-300" />
+								<Image src="/ahmed1.jpg" alt="https://www.linkedin.com/in/gasba-ahmed-783a932b9" width={40} height={40} className="rounded-full border-2 border-blue-300" />
 								<div>
 									<p className="font-semibold text-blue-700 dark:text-blue-300">Gasba Ahmed</p>
 									<p className="text-xs text-gray-500 dark:text-gray-400">Colleague</p>
