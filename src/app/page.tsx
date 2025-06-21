@@ -34,13 +34,16 @@ function RepoImage({ projectName, previewImageUrl }: { projectName: string; prev
 
   if (!imgSrc) return null;
   return (
-    <img
-      src={imgSrc}
-      alt={projectName + ' preview'}
-      className="w-full h-56 object-contain bg-gray-100 rounded mb-4 border"
-      style={{ maxHeight: '220px', minHeight: '120px', objectFit: 'contain', background: '#f3f4f6' }}
-      onError={() => setImgSrc(null)}
-    />
+	<Image
+	  src={imgSrc}
+	  alt={projectName + ' preview'}
+	  className="w-full h-56 object-contain bg-gray-100 rounded mb-4 border"
+	  style={{ maxHeight: '220px', minHeight: '120px', objectFit: 'contain', background: '#f3f4f6' }}
+	  width={400}
+	  height={220}
+	  onError={() => setImgSrc(null)}
+	  unoptimized
+	/>
   );
 }
 
@@ -287,7 +290,7 @@ export default function Home() {
 							<h3 className="text-xl font-semibold mb-2 text-green-800 dark:text-green-200">How Can AI Understand Conversations in Dialects?</h3>
 							<p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">One of the biggest challenges in Natural Language Processing (NLP) is dealing with dialects and informal speech. Unlike standard language, dialects vary in structure, vocabulary, and even pronunciation across different regions.
 
-Recently, I had an interesting experience with ChatGPT — I tested its ability to understand casual conversations in "Darija" (a North African Arabic dialect), and the results were impressive!</p>
+Recently, I had an interesting experience with ChatGPT — I tested its ability to understand casual conversations in &quot;Darija&quot; (a North African Arabic dialect), and the results were impressive!</p>
 							<a href="https://medium.com/@ouahabi.abdessamed/how-can-ai-understand-conversations-in-dialects-eae41cdccfe5" className="text-green-700 dark:text-green-300 underline text-sm hover:text-green-900 dark:hover:text-green-100 transition">Read More</a>
 						</article>
 						<article className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900 dark:to-green-800 rounded-xl shadow-lg p-6 flex flex-col hover:scale-105 transition-transform duration-300">
