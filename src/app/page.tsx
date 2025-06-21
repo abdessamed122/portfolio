@@ -277,6 +277,11 @@ export default function Home() {
 							<p className="font-medium text-gray-800 dark:text-gray-100 mb-1 text-center">Multimodal RAG: Chat with Videos</p>
 							<a href="https://learn.deeplearning.ai/accomplishments/11ca6151-7558-4697-b5f7-3f5503723540?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-purple-700 dark:text-purple-300 underline text-sm hover:text-purple-900 dark:hover:text-purple-100 transition">View Certificate</a>
 						</div>
+						<div className="bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 rounded-xl shadow-lg p-4 flex flex-col items-center hover:scale-105 transition-transform duration-300">
+							<Image src="/image.png" alt="Bachelor's Degree Certificate" width={180} height={130} className="rounded-lg object-cover shadow mb-2 border-2 border-purple-300 dark:border-purple-700 bg-white" />
+							<p className="font-medium text-gray-800 dark:text-gray-100 mb-1 text-center">Bachelor&#39;s Degree Certificate (Diplôme de Licence)</p>
+							<a href="/diplome.pdf" target="_blank" rel="noopener noreferrer" className="text-purple-700 dark:text-purple-300 underline text-sm hover:text-purple-900 dark:hover:text-purple-100 transition">View/Download Certificate</a>
+						</div>
 					</div>
 				</section>
 
